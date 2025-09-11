@@ -31,8 +31,9 @@ jobs:
     - name: Install dependencies
       run: npm ci
       
-    - name: Clean and generate
+    - name: Clean cache and generate
       run: |
+        npm cache clean --force
         npx hexo clean
         npx hexo generate
         
