@@ -100,7 +100,6 @@ theme: my-theme
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
+## Using GitHub Actions for deployment
 deploy:
-  type: git
-  repo: https://github.com/trump99/trump99.github.io.git
-  branch: main
+  type: ''
